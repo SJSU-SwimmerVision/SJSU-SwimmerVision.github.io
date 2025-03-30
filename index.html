@@ -58,10 +58,10 @@
                   <span class="author-block">
                   <a href="https://www.linkedin.com/in/jon-ouyang/" target="_blank">Jonathan Ouyang</a>,</span>
                   <span class="author-block">
-                  <a href="https://www.linkedin.com/in/a-s-adam/" target="_blank">Austin Adam</a><sup>*</sup>,</span>
-                  <span class="author-block">
+                  <a href="https://www.linkedin.com/in/a-s-adam/" target="_blank">Austin Adam</a><sup></sup>,</span>
+                  <!-- <span class="author-block">
                     <a href="https://www.linkedin.com/in/derrick-trinh-a53350213/" target="_blank">Derrick Trinh</a><sup>*</sup>,
-                  </span>
+                  </span> -->
                   <span class="author-block">
                     <a href="https://www.sjsu.edu/people/chang.choo/" target="_blank">Chang Choo</a>
                   </span>
@@ -69,7 +69,7 @@
 
                   <div class="is-size-5 publication-authors">
                     <span class="author-block">San Jose State University<br>AI/Deep Learning FPGA/DSP Laboratory</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
                   </div>
 
                   <div class="column has-text-centered">
@@ -107,6 +107,16 @@
                   </a>
                 </span>
 
+                <span class="link-block">
+                  <a href="https://www.kaggle.com/datasets/jonouyang/sjsu-d1-swimming-dataset" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-kaggle"></i>
+                    </span>
+                    <span>Dataset</span>
+                  </a>
+                </span>
+
                 <!-- ArXiv abstract Link -->
                 <!-- <span class="link-block">
                   <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
@@ -134,11 +144,11 @@
         Currently under review at IEEE International Conference on Image Processing (ICIP) 2025
       </h2>
       <h2 class="subtitle has-text-centered">
-        The world's first large scale, open-source, professional swimmer dataset. We hope for our data to be used to advance SOTA Computer Vision and further AI in athletic applications.
+        We present the SJSU D1 Swim Dataset, an open source swim dataset. We use this dataset in addition to externally aquired data to build a swim stroke classification system and investigate pose estimation enhancements, with the ultimate goal of developing an automated technique feedback pipeline. 
       </h2>
       <video poster="" id="tree" autoplay controls muted loop height="100%">
         <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
+        <source src="static/videos/banner_video2.mp4"
         type="video/mp4">
       </video>
       
@@ -189,30 +199,30 @@
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/butterfly.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          First image description.
+          Butterfly Dataset Sample Frame
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/backstroke.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          Second image description.
+          Backstroke Dataset Sample Frame
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/breastroke.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-         Third image description.
+          Breaststroke Dataset Sample Frame
        </h2>
      </div>
      <div class="item">
       <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
+      <img src="static/images/freestyle.png" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
-        Fourth image description.
+        Freestyle Dataset Sample Frame
       </h2>
     </div>
   </div>
@@ -235,7 +245,12 @@
           
           <div class="publication-video">
             <!-- Youtube embed code here -->
-            <iframe src="https://youtu.be/WGqPeSYxd6Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <!-- <iframe src="https://youtu.be/WGqPeSYxd6Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+            <video poster="" id="tree" autoplay controls muted loop height="100%">
+              <!-- Your video here -->
+              <source src="static/videos/banner_video.mp4"
+              type="video/mp4">
+            </video>
           </div>
         </div>
       </div>
@@ -263,7 +278,14 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>
+        @misc{Ouyang_SwimDetectionEstimation_2025,
+          author = {Jonathan Ouyang and Austin Adam and Chang Choo},
+          title = {Swimmer Detection and Pose Estimation},
+          year = {2025},
+          note = {Submitted to IEEE International Conference on Image Processing},
+        }
+      </code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
